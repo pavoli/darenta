@@ -11,7 +11,7 @@ $ py -m venv `name YOUR virtual environmental`
 ```bash
 $ cd  /path/to/new/virtual/environment
 $ source Scripts/activate
-$ pip install -r requirements.txt
+$ pip install -r pip-requirements.txt
 ```
 * Run application
 ```bash
