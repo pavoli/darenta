@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Small CMS</title>
+        <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    </head>
+    <body>
+        {% include 'eshop/navbar.html' %}
+        <div class="container-fluid">
+            {% block content %}
+
+            {% endblock %}
+
+        <hr>
+        <h5>Our footer</h5>
+    </body>
+</html>
